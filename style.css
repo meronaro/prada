@@ -1,0 +1,26 @@
+.btn-outline-success{
+    color:black;
+    border-color: gray;
+}
+
+.btn-outline-success:hover{
+    color: black;
+    border-color: gray;
+    background-color:darkgrey;
+}
+
+.mg-t{
+    margin-top: 50px;
+}
+
+a{
+  color: black;
+}
+
+.font{
+  font-family: 'Merriweather', serif;
+}
+
+.mg-l{
+  margin-left: 20px;
+}
