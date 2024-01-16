@@ -1,26 +1,84 @@
-.btn-outline-success{
-    color:black;
-    border-color: gray;
+.search {
+  position: relative;
+  width: 300px;
+  margin: 10px 25px 0 0
 }
 
-.btn-outline-success:hover{
-    color: black;
-    border-color: gray;
-    background-color:darkgrey;
+input {
+  width: 100%;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  padding: 8px 15px;
+  font-size: 14px;
 }
 
-.mg-t{
-    margin-top: 50px;
+input:focus {
+  outline: 1px solid gray;
 }
 
-a{
-  color: black;
+.icon {
+  position : absolute;
+  width: 15px;
+  top: 10px;
+  right: 12px;
+  margin: 0;
 }
 
-.font{
-  font-family: 'Merriweather', serif;
+.font {font-family: 'Merriweather', serif;}
+
+.mg-l {margin-left: 20px;}
+
+.font1 {
+  font-size: 12px;
+  font-family: benton-sans,sans-serif;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: .2px;
+  text-align: center;
 }
 
-.mg-l{
-  margin-left: 20px;
+.country {
+  width: 100%;
+  border-bottom: 1px solid #d9dce0;
+  border-left: 0;
+  padding: 24px 16px;
 }
+
+.thin-font {
+  text-align: center;
+  padding: 24px 16px;
+  width: 100%;
+  margin: 0;
+  font-family: benton-sans,sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: normal;
+}
+
+.under {text-decoration: none;}
+
+.card {
+  transition: transform 0.2s ease;
+  box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 1.5em;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+a {color: black;}
+
+a:hover {color: slategray;}
+
+@media screen and (max-width:48rem) {
+  .footer {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.pd-l {padding-left: 100px;}

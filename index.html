@@ -9,6 +9,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/b83b43be54.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
@@ -24,7 +25,7 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">MEN</a>
+                    <a class="nav-link" href="#">MEN</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">WOMEN</a>
@@ -42,15 +43,15 @@
                     <a class="nav-link" href="#">HOME COLLECTION</a>
                   </li>
                 </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                <div class="search">
+                  <input type="text" placeholder="prada.com에서 검색">
+                  <i class="fa-solid fa-magnifying-glass icon"></i>
+                </div>
               </div>
             </div>
           </nav>
 
-          <div id="carouselExampleIndicators" class="carousel slide mg-t">
+          <div id="carouselExampleIndicators" class="carousel slide mt-5">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -77,41 +78,53 @@
             </button>
           </div>
 
-          <div class="text-center mg-t font">
+          <div class="text-center mt-5 font">
           <h4> What you wear is how you present yourself to the world.</h4> 
           <p><h4>Fashion is an instant language.</h4></p>
           </div>
           
-          <div class="container">
-            <div class="row mg-l mg-t text-center">
-            <div class="col-md-4">
-              <div class="card" style="width: 18rem;">
-                <img src="https://www.prada.com/content/dam/pradabkg_products/1/1D2/1D246M/ULSF0002/1D246M_ULS_F0002_F_B050_SLS.jpg/_jcr_content/renditions/cq5dam.web.hebebed.1200.1200.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">GIFTS FOR HER</p>
-                </div>
-              </div>
-              </div>
+          <div class="container pd-l">
+            <div class="row mt-5 text-center">
+                  <div class="col-md-4 col-sm-12">
+                  <div class="card" style="width: 16rem;">
+                    <img src="https://www.prada.com/content/dam/pradabkg_products/1/1D2/1D246M/ULSF0002/1D246M_ULS_F0002_F_B050_SLS.jpg/_jcr_content/renditions/cq5dam.web.hebebed.1200.1200.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text"><a href="#" class="under"> GIFTS FOR HER </a></p>
+                    </div>
+                  </div>
+                  </div>
 
-              <div class="col-md-4">
-              <div class="card" style="width: 18rem;">
-                <img src="https://www.prada.com/content/dam/pradabkg_products/2/2VZ/2VZ135/789F0002/2VZ135_789_F0002_V_HNL_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.1200.1200.jpg" alt="...">
-                <div class="card-body">
-                  <p class="card-text">GIFTS FOR HIM</p>
-                </div>
-              </div>
-              </div>
+                  <div class="col-md-4 col-sm-12">
+                  <div class="card" style="width: 16rem;">
+                    <img src="https://www.prada.com/content/dam/pradabkg_products/2/2VZ/2VZ135/789F0002/2VZ135_789_F0002_V_HNL_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.1200.1200.jpg" alt="...">
+                    <div class="card-body">
+                      <p class="card-text"><a href="#" class="under"> GIFTS FOR HIM </a></p>
+                    </div>
+                  </div>
+                  </div>
 
-              <div class="col-md-4">
-              <div class="card" style="width: 18rem;">
-                <img src="https://www.prada.com/content/dam/pradanux_products/1/1MC/1MC025/QHHF0632/1MC025_QHH_F0632_SLF.png/_jcr_content/renditions/cq5dam.web.hebebed.1200.1200.jpg" alt="...">
-                <div class="card-body">
-                  <p class="card-text">OTHERS</p>
-                </div>
-              </div>
-              </div>
+                  <div class="col-md-4 col-sm-12">
+                  <div class="card"style="width: 16rem;">
+                    <img src="https://www.prada.com/content/dam/pradanux_products/1/1MC/1MC025/QHHF0632/1MC025_QHH_F0632_SLF.png/_jcr_content/renditions/cq5dam.web.hebebed.1200.1200.jpg" alt="...">
+                    <div class="card-body">
+                      <p class="card-text "><a href="#" class="under"> OTHERS </a></p>
+                    </div>
+                  </div>
+                  </div>
             </div>
           </div>
+    </body>
+
+    <footer class="mt-5">
+      <div class="container footer">
+          <div class="row first-line">
+            <div class="col country thin-font"> ©PRADA 2007 - 2024 | VAT n. 213-86-18599 </div>
+            <div class="col country font1"> <a href="#" class="under"> LOCATOR </a> </div>
+            <div class="col country font1"> <a href="#" class="under"><img src="https://www.prada.com/etc/designs/aem-prada-innovation-clientlibs/clientlib-resources/resources/images/flags/south-korea.svg"> SHIPPING TO: KOREA, REPUBLIC OF/ENGLISH </a></div>
           </div>
 
-    </body>
+          <div class="thin-font">
+            Company name: PRADA KOREA LLC. Business registration number: 213-86-18599. Representative person name: Choi Moonyoung. Chief Privacy Officer: Jeehoon Kim. E-commerce business operator Registration number: 2017-SEOULGANGNAM-04082. Office Address: Apkujeong-Ro 439, Gangnam-gu, Seoul 06010. Telephone number: 080-522-7199. E-mail address: client.service.kr@prada.com. Contractual T&C of the e-commerce business. Hosting services name: WIIT. Escrow info: We are affiliated with a purchasing security service called NHN Korea Cyber Payment Co., Ltd. to guarantee your safe transactions. Manufacturing date disclaimers: Every product has been produced since after January 2016
+          </div>
+      </div>
+    </footer>
